@@ -5,8 +5,6 @@
 ---
 Real life projects often require multiple devs working in parallel. A version control system (Git) is useful in handling code updates, their history and changes. Git also enables branching and merging.
 
-What is a branch? _A branch is a pointer to the latest commit in the git repository_ . Multiple branches are required to support parallel project development. Create a new branch using the command `git branch myBranch`. This command creates a branch called myBranch. In order to switch from the main branch to myBranch, use `git checkout myBranch`. In order to list all the branches in local, the `git branch` command comes in handy. 
-
 This repository aims at practicing and refreshing a couple of Git and GitHub practices.
 It covers:
 -   The Trunk workflow which is
@@ -38,6 +36,12 @@ To create a remote repository, first create a github account, then follow these 
 -  To push all the code from the local repository to the remote one, use `git push -u origin master`
 
 There you go! 
+
+# _Git branching_
+---
+
+What is a branch? _A branch is a pointer to the latest commit in the git repository_ . Multiple branches are required to support parallel project development. Create a new branch using the command `git branch myBranch`. This command creates a branch called myBranch. In order to switch from the main branch to myBranch, use `git checkout myBranch`. In order to list all the branches in local, the `git branch` command comes in handy. 
+
 
 
 
